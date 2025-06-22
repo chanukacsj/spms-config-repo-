@@ -33,5 +33,8 @@ spring:
           uri: lb://reservation-service
           predicates:
             - Path=/api/v1/reservations/**
+jwt:
+  secret: af89cbb26e65c37dd9e3f2baf0c6e06ef749d9264e1a52c5ef6035aa2be0e4ab
+
 app:
   base-url: http://localhost:8080 
