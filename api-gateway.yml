@@ -34,7 +34,7 @@ spring:
           predicates:
             - Path=/api/v1/reservations/**
 jwt:
-  secret: YXpZc2Y3U2xPcmduRzV6d0FBNjB3YkZnMGdIRldvUkx3Z0VqT0JZUGdjMzRrWkpPU0s0WA==
+  secret: y7QaqaCDb+t0Tv2ISoLLXwPPZ3BCM5FwNO1fUxOnNHE3iUi36JQMebsKMYU5UzmrOzjxBkAxLzUjrv/QZ+Uzgw==
 
 app:
   base-url: http://localhost:8080 
